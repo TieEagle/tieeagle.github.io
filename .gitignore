@@ -1,0 +1,25 @@
+# project
+*
+!*/
+
+# general
+!/LICENSE
+!/README.md
+
+# git
+!/.gitignore
+
+# github
+!/.github/**/*
+
+# editor config
+!/.editorconfig
+
+# node
+!/package.json
+!/package-lock.json
+!/jsconfig.json
+
+# sources, resources, documentation & tests
+!/src/**/*
+!/public/**/*
