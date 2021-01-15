@@ -29,3 +29,4 @@ jobs:
           BRANCH: pages
           FOLDER: out
           CLEAN: true
+          SINGLE_COMMIT: true
