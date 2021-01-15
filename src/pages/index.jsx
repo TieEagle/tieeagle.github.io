@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
+import styles from '@tie/styles/Home.module.scss'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href={'/favicon.ico'}/>
+        <link rel="icon" href={'/static/images/favicon.ico'}/>
       </Head>
 
       <main className={styles.main}>
@@ -56,8 +56,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src={'/vercel.svg'} alt="Vercel Logo" className={styles.logo}/>
+          Powered by {'GitHub Pages'}
         </a>
       </footer>
     </div>

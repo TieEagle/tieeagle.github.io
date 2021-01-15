@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@tie/components/*": [
+        "src/components/*"
+      ],
+      "@tie/lib/*": [
+        "src/lib/*"
+      ],
+      "@tie/pages/*": [
+        "src/pages/*"
+      ],
+      "@tie/styles/*": [
+        "src/styles/*"
+      ],
+      "@tie/fonts/*": [
+        "public/static/fonts/*"
+      ],
+      "@tie/images/*": [
+        "public/static/images/*"
+      ]
+    }
+  }
+}
