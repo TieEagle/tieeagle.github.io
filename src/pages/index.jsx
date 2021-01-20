@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '@tie/styles/Home.module.scss'
+import {Button} from 'semantic-ui-react';
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href={'/static/images/favicon.ico'}/>
       </Head>
+
+      <Button as={'a'}/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
