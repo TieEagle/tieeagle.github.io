@@ -18,8 +18,9 @@
 # node
 !/package.json
 !/package-lock.json
-!/jsconfig.json
+!/tsconfig.json
 !/next.config.js
+!/next-env.d.ts
 
 # sources, resources, documentation & tests
 !/src/**/*
